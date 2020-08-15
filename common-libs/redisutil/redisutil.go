@@ -4,6 +4,7 @@ import (
 	"context"
 	"log"
 	"time"
+	"github.com/go-redis/redis/v8"
 )
 
 type Handler interface {
